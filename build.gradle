@@ -1,0 +1,16 @@
+apply plugin: 'groovy'
+apply plugin: 'distribution'
+
+sourceCompatibility = 1.6
+version = '1.0.0-SNAPSHOT'
+
+
+dependencies {
+    compile localGroovy()
+    compile "junit:junit:4.11"
+}
+
+repositories {
+    mavenCentral()
+}
+
